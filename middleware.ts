@@ -8,7 +8,7 @@ const isPublicRouter = createRouteMatcher([
   "/home",
 ]);
 
-const isPublicApiRouter = createRouteMatcher(["/api/vidoes"]);
+const isPublicApiRouter = createRouteMatcher(["/api/videos"]);
 
 export default clerkMiddleware((auth, req) => {
   const { userId } = auth();

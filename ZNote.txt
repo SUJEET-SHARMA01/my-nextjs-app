@@ -1,3 +1,30 @@
 create project - npm create next-app@latest
 
 npm install @clerk/nextjs
+
+
+
+websites:-
+clerk
+clerk dashborad
+neon
+prisma
+cloudinary
+
+
+
+
+
+npm install prisma typescript tsx @types/node --save-dev
+npx prisma init --db --output ../generated/prisma
+npm install @prisma/client
+npx prisma migrate dev --name init
+npx prisma generate
+
+
+
+
+
+
+
+import { PrismaClient } from "../../../generated/prisma";
