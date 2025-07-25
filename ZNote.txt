@@ -1,0 +1,3 @@
+create project - npm create next-app@latest
+
+npm install @clerk/nextjs
