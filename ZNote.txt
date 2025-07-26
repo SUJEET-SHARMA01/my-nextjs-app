@@ -11,6 +11,8 @@ neon
 prisma
 cloudinary
 
+next cloudinary for components
+npm install next-cloudinary
 
 
 
